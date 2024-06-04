@@ -76,7 +76,7 @@ with st.container():
     tab1, tab2, tab3 = st.tabs(["Heatmap", "Barplot", "Scatterplot"])
 
     df = np.round(dataset.corr(method="pearson", numeric_only=True), 4)
-    tab1.plotly_chart(heatmap(df))
+    tab1.plotly_chart(heatmap(df),use_container_width=True)
     
 
 # container-predictions
