@@ -15,15 +15,15 @@ st.set_page_config(
 )
 # ---------------------------------------------------------------------------
 
-# container-header
-with st.container():
-  st.markdown("# Data Visualization of Iris Dataset")
-
 # load dataset iris
 dataset = getDataset("iris.csv")
 
 # normalized data
 dataset = normalized(dataset)
+
+# container-header
+with st.container():
+  st.markdown("# Data Visualization of Iris Dataset")
 
 # container-visualization data
 with st.container():

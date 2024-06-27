@@ -1,5 +1,8 @@
+# lib manipulation dat
 import pandas as pd
 import numpy as np
+
+# lib visualization data
 import plotly.express as px
 # ---------------------------------------------------------------------------
 
@@ -103,3 +106,4 @@ def histogram(df, x, title):
 
   # return values
   return fig
+# ---------------------------------------------------------------------------
