@@ -24,7 +24,7 @@ st.set_page_config(
 )
 
 # load dataset
-dataset = pd.read_csv("../dataset/vgsales.csv")
+dataset = pd.read_csv("../../dataset/vgsales.csv")
 
 # container-header
 with st.container():
