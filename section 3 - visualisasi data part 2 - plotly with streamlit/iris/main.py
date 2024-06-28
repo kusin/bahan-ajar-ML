@@ -51,11 +51,24 @@ with st.container():
     ),
     use_container_width=True
   )
-
   # col-scatter
   col2.plotly_chart(
     scatter(
       dataset, "petal_length", "petal_width", "Scatterplot to see linearity between features"
+    ),
+    use_container_width=True
+  )
+  # col-scatter
+  col1.plotly_chart(
+    scatter(
+      dataset, "sepal_length", "sepal_width", "Scatterplot to see linearity between features"
+    ),
+    use_container_width=True
+  )
+  # col-scatter
+  col2.plotly_chart(
+    scatter(
+      dataset, "sepal_length", "petal_width", "Scatterplot to see linearity between features"
     ),
     use_container_width=True
   )
@@ -65,54 +78,46 @@ with st.container():
   col1.plotly_chart(
     boxplot(
       dataset, "species", "sepal_length", "Boxplot to see the outlier value in each feature"
-    ),
-    use_container_width=True
+    ), use_container_width=True
   )
   # col-boxplot
   col2.plotly_chart(
     boxplot(
       dataset, "species", "sepal_width", "Boxplot to see the outlier value in each feature"
-    ),
-    use_container_width=True
+    ), use_container_width=True
   )
   # col-boxplot
   col1.plotly_chart(
     boxplot(
       dataset, "species", "petal_length", "Boxplot to see the outlier value in each feature"
-    ),
-    use_container_width=True
+    ), use_container_width=True
   )
   # col-boxplot
   col2.plotly_chart(
     boxplot(
       dataset, "species", "petal_width", "Boxplot to see the outlier value in each feature"
-    ),
-    use_container_width=True
+    ), use_container_width=True
   )
   # ---------------------------------------------------------------------------
 
-  # col-boxplot
+  # col-histogram
   col1.plotly_chart(
     histogram(
       dataset, "sepal_length", "Histogram to see the distribution of data between features"
-    ),
-    use_container_width=True
+    ), use_container_width=True
   )
   col2.plotly_chart(
     histogram(
       dataset, "sepal_width", "Histogram to see the distribution of data between features"
-    ),
-    use_container_width=True
+    ), use_container_width=True
   )
   col1.plotly_chart(
     histogram(
       dataset, "petal_length", "Histogram to see the distribution of data between features"
-    ),
-    use_container_width=True
+    ), use_container_width=True
   )
   col2.plotly_chart(
     histogram(
       dataset, "petal_width", "Histogram to see the distribution of data between features"
-    ),
-    use_container_width=True
+    ), use_container_width=True
   )
