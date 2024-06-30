@@ -73,6 +73,3 @@ with col2:
 
   # load timeseries plot
   st.plotly_chart(timeseries_plot(dataset, cryptocurrency))
-
-
-  
