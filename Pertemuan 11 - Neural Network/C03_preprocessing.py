@@ -13,29 +13,14 @@ def normalized(dataset, features):
   data = data.values
   
   # normalisasi min-max
-  scaler = MinMaxScaler(feature_range=(-1, 1))
+  scaler = MinMaxScaler(feature_range=(0, 1))
   scaled = scaler.fit_transform(np.array(data))
 
   return scaler, scaled
 # ----------------------------------------------------------------------------------------
 
-def inverse(scaler, scaled):
-  hasil = scaler.inverse_transform(scaled.reshape(-1,1))
-  return hasil
-# ----------------------------------------------------------------------------------------
-
 def splitting(scaled):
-
-  # # split data train and test
-  # train_data, test_data = train_test_split(scaled, train_size=0.80, test_size=0.20, shuffle=False)
-  
-  # set training data
-  train_size = 216
-  train_data = scaled[0:train_size,:]
-
-  # set testing data
-  test_data = scaled[train_size:len(scaled),:]
-  
+  train_data, test_data = train_test_split(scaled, train_size=0.80, test_size=0.20, shuffle=False)
   return train_data, test_data
 # ----------------------------------------------------------------------------------------
 
@@ -74,52 +59,4 @@ def results_supervised_learning(train_data, test_data):
   # return values
   return x_train, y_train, x_test, y_test
 # ----------------------------------------------------------------------------------------
-
-# convert series to supervised learning
-def process_multivariate_supervised(data, n_in=1, n_out=1, dropnan=True):
-    n_vars = 1 if type(data) is list else data.shape[1]
-    df = pd.DataFrame(data)
-    cols, names = list(), list()
-
-    # input sequence (t-n, ... t-1)
-    for i in range(n_in, 0, -1):
-      cols.append(df.shift(i))
-      names += [('var%d(t-%d)' % (j+1, i)) for j in range(n_vars)]
-
-    # forecast sequence (t, t+1, ... t+n)
-    for i in range(0, n_out):
-      cols.append(df.shift(-i))
-      if i == 0:
-        names += [('var%d(t)' % (j+1)) for j in range(n_vars)]
-      else:
-        names += [('var%d(t+%d)' % (j+1, i)) for j in range(n_vars)]
-
-    # put it all together
-    agg = pd.concat(cols, axis=1)
-    agg.columns = names
-
-    # drop rows with NaN values
-    if dropnan:
-      agg.dropna(inplace=True)
-
-    # return value
-    return agg
-# ----------------------------------------------------------------------------------------
-
-# function for supervised learning
-def results_supervised_learning(train_data, test_data):
-   
-  # set time series lag
-  look_back = 1
-  
-  # process supervised learning
-  x_train, y_train = process_supervised_learning(look_back, train_data)
-  x_test, y_test = process_supervised_learning(look_back, test_data)
-
-  # reshape input to be [samples, time steps, features]
-  x_train = np.reshape(x_train, (x_train.shape[0], x_train.shape[1], 1))
-  x_test = np.reshape(x_test, (x_test.shape[0], x_test.shape[1], 1))
-   
-  # return values
-  return x_train, y_train, x_test, y_test
 
