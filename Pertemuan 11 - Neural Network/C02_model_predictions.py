@@ -1,11 +1,7 @@
 # lib neural network algorithms
 import tensorflow as tf
-from keras.models import Sequential
-from keras.layers import Bidirectional
 from keras.layers import LSTM
 from keras.layers import GRU
-from keras.layers import Dropout
-from keras.layers import Dense
 
 
 # func model predictions
