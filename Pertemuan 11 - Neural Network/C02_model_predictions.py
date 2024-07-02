@@ -10,25 +10,28 @@ from keras.layers import Dense
 
 # func model predictions
 def get_models(algorithms, timestep):
-
-  # reset of session model
-  tf.keras.backend.clear_session()
-
+  
   # 1. SBi-LSTM-RNN architecture
   if algorithms == "SBi-LSTM-RNN":
-    model = Sequential()
-    model.add(Bidirectional(LSTM(units=50, return_sequences=True, input_shape=(timestep, 1))))
-    model.add(Bidirectional(LSTM(units=50, return_sequences=False)))
-    model.add(Dropout(0.05))
-    model.add(Dense(1))
+    tf.keras.backend.clear_session()
+    model = tf.keras.Sequential([
+      tf.keras.layers.Bidirectional(LSTM(units=50, return_sequences=True, input_shape=(timestep.shape[1], 1))),
+      tf.keras.layers.Dropout(0.05),
+      tf.keras.layers.Bidirectional(LSTM(units=50, return_sequences=False)),
+      tf.keras.layers.Dropout(0.05),
+      tf.keras.layers.Dense(1)
+    ])
   
   # 1. SBi-GRU-RNN architecture
   if algorithms == "SBi-GRU-RNN":
-    model = Sequential()
-    model.add(Bidirectional(GRU(units=50, return_sequences=True, input_shape=(timestep, 1))))
-    model.add(Bidirectional(GRU(units=50, return_sequences=False)))
-    model.add(Dropout(0.05))
-    model.add(Dense(1))
+    tf.keras.backend.clear_session()
+    model = tf.keras.Sequential([
+      tf.keras.layers.Bidirectional(GRU(units=50, return_sequences=True, input_shape=(timestep, 1))),
+      tf.keras.layers.Dropout(0.05),
+      tf.keras.layers.Bidirectional(GRU(units=50, return_sequences=False)),
+      tf.keras.layers.Dropout(0.05),
+      tf.keras.layers.Dense(1)
+    ])
   
   # 2. compile models
   model.compile(optimizer="adamax", loss="mean_squared_error")
