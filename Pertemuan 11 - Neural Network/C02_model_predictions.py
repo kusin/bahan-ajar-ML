@@ -12,7 +12,7 @@ def get_models(algorithms, timestep):
     tf.keras.backend.clear_session()
     model = tf.keras.Sequential([
       tf.keras.layers.Bidirectional(LSTM(units=50, return_sequences=True, input_shape=(timestep, 1))),
-      tf.keras.layers.Dropout(0.10),
+      tf.keras.layers.Dropout(0.05),
       tf.keras.layers.Bidirectional(LSTM(units=50, return_sequences=False)),
       tf.keras.layers.Dropout(0.05),
       tf.keras.layers.Dense(1)
@@ -23,7 +23,7 @@ def get_models(algorithms, timestep):
     tf.keras.backend.clear_session()
     model = tf.keras.Sequential([
       tf.keras.layers.Bidirectional(GRU(units=50, return_sequences=True, input_shape=(timestep, 1))),
-      tf.keras.layers.Dropout(0.10),
+      tf.keras.layers.Dropout(0.05),
       tf.keras.layers.Bidirectional(GRU(units=50, return_sequences=False)),
       tf.keras.layers.Dropout(0.05),
       tf.keras.layers.Dense(1)
