@@ -42,7 +42,7 @@ def get_predictions(model, x_train, y_train, x_test, y_test):
   # 3. fitting models
   history = model.fit(
     x_train, y_train,
-    batch_size=8, epochs=50, verbose="auto", 
+    batch_size=15, epochs=50, verbose="auto", 
     validation_data=(x_test, y_test),
     use_multiprocessing=False, shuffle=False
   )

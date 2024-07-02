@@ -21,14 +21,14 @@ def timeseries_matplotlib(df, nm_labels):
 # ----------------------------------------------------------------------------------------
 
 # func timeseries plot
-def lineplot_matplotlib1(x1, y1, label1):
+def lineplot_matplotlib1(x1, y1, label1, title):
 
   # create lineplot
   fig, ax = plt.subplots(figsize = (8,4))
   ax.plot(x1, y1, color="tab:blue", label=label1, linewidth=2.5)
   
   # set label-labels
-  ax.set_title("", fontsize=12)
+  ax.set_title(title, fontsize=12)
   ax.set_xlabel("", fontsize=10)
   ax.set_ylabel("", fontsize=10)
   ax.legend(loc="best")
