@@ -17,7 +17,7 @@ def timeseries_matplotlib(df, nm_labels):
   ax.grid(True)
   
   # show lineplot
-  return plt.show()
+  plt.show()
 # ----------------------------------------------------------------------------------------
 
 # func timeseries plot
@@ -35,7 +35,7 @@ def lineplot_matplotlib1(x1, y1, label1):
   ax.grid(True)
   
   # show lineplot
-  return plt.show()
+  plt.show()
 # ----------------------------------------------------------------------------------------
 
 # func timeseries plot
@@ -54,5 +54,5 @@ def lineplot_matplotlib2(x1, y1, label1, x2, y2, label2, title):
   ax.grid(True)
   
   # show lineplot
-  return plt.show()
+  plt.show()
 # ----------------------------------------------------------------------------------------
