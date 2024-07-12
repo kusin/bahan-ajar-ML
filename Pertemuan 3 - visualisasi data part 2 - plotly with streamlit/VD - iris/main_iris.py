@@ -16,7 +16,7 @@ st.set_page_config(
 # ---------------------------------------------------------------------------
 
 # load dataset iris
-dataset = getDataset("iris.csv")
+dataset = getDataset("dataset_iris.csv")
 
 # normalized data
 dataset = normalized(dataset)
