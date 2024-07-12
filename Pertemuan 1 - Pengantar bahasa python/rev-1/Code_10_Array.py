@@ -20,7 +20,7 @@ if __name__ == "__main__":
   ])
 
   # proses penjumlahan array
-  Arr3 = Arr1 + Arr2
+  Arr3 = Arr1 * Arr2
   
   # Output program
   print("Hasil penjumlahan array")
