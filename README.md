@@ -30,19 +30,17 @@
 - Brownlee J. 2018. Deep Learning for Time Series Forecasting: Predict the Future with MLPs, CNNs and LSTMs in Python. Machine Learning Mastery.
 
 ## List Course
-- Section 1 - introduction of Python Programming
-- Section 2 - computational statistics and data visualization
-- Section 3 - data exploration and pre-processing data
-- Section 4 - data classification with id3, C45, c50 Algorithm
-- Section 5 - data classification with naive bayes and k-nearest neighbor
-- Section 6 - data clustering with the k-means and dbscan algorithm
-- Section 7 - data prediction using linear regression and logistics regression
-- Section 8 - midterm exam
-- Section 9 - introduction of neural network for classification and clustering
-- Section 10 - introduction of neural network for prediction time series
-- Section 11 - data prediction with lstm-rnn and gru-rnn
-- Section 12 - advance lstm algorithm with stacked and bidirectional modeling
-- Section 13 - advance lstm algorithm with grid-search and random-search modeling
-- Section 14 - project presentation
-- Section 15 - project presentation
-- Section 16 - final exam
+Pertemuan 1.	Pengantar Bahasa Python
+Pertemuan 2.	Visualisasi Data Menggunakan Matplotlib dan Seaborn
+Pertemuan 3.	Visualisasi Data Menggunakan Framework Streamlit
+Pertemuan 4.	Teknik-Teknik Praproses Data – Data Tabular, Time Series, dan Spasial
+Pertemuan 5.	Algoritma Klasifikasi Data Bagian 1
+Pertemuan 6.	Algoritma Klastering Data Bagian 2
+Pertemuan 7.	Ujian Tengah Semester (UTS)
+Pertemuan 8.	Algoritma Klastering Data Bagian 1
+Pertemuan 9.	Algoritma Klastering Data Bagian 2
+Pertemuan 10.	Algoritma Regresi Linier
+Pertemuan 11.	Algoritma Neural Network: SBi-LSTM dan SBi-GRU
+Pertemuan 12.	Algoritma Neural Network: SBi-LSTM dan SBi-GRU
+Pertemuan 13.	Presentasi Projek (UAS)
+Pertemuan 14.	Presentasi Projek (UAS)
