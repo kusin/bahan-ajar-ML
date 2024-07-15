@@ -35,17 +35,17 @@
 
 ## List Course
 
-Pertemuan 1. Pengantar Bahasa Python
-Pertemuan 2. Visualisasi Data Menggunakan Matplotlib dan Seaborn
-Pertemuan 3. Visualisasi Data Menggunakan Framework Streamlit
-Pertemuan 4. Teknik-Teknik Praproses Data – Data Tabular, Time Series, dan Spasial
-Pertemuan 5. Algoritma Klasifikasi Data Bagian 1
-Pertemuan 6. Algoritma Klastering Data Bagian 2
-Pertemuan 7. Ujian Tengah Semester (UTS)
-Pertemuan 8. Algoritma Klastering Data Bagian 1
-Pertemuan 9. Algoritma Klastering Data Bagian 2
-Pertemuan 10. Algoritma Regresi Linier
-Pertemuan 11. Algoritma Neural Network: SBi-LSTM dan SBi-GRU
-Pertemuan 12. Algoritma Neural Network: SBi-LSTM dan SBi-GRU
-Pertemuan 13. Presentasi Projek (UAS)
-Pertemuan 14. Presentasi Projek (UAS)
+- Pertemuan 1. Pengantar Bahasa Python
+- Pertemuan 2. Visualisasi Data Menggunakan Matplotlib dan Seaborn
+- Pertemuan 3. Visualisasi Data Menggunakan Framework Streamlit
+- Pertemuan 4. Teknik-Teknik Praproses Data – Data Tabular, Time Series, dan Spasial
+- Pertemuan 5. Algoritma Klasifikasi Data Bagian 1
+- Pertemuan 6. Algoritma Klastering Data Bagian 2
+- Pertemuan 7. Ujian Tengah Semester (UTS)
+- Pertemuan 8. Algoritma Klastering Data Bagian 1
+- Pertemuan 9. Algoritma Klastering Data Bagian 2
+- Pertemuan 10. Algoritma Regresi Linier
+- Pertemuan 11. Algoritma Neural Network: SBi-LSTM dan SBi-GRU
+- Pertemuan 12. Algoritma Neural Network: SBi-LSTM dan SBi-GRU
+- Pertemuan 13. Presentasi Projek (UAS)
+- Pertemuan 14. Presentasi Projek (UAS)
