@@ -6,14 +6,14 @@
 if __name__== "__main__":
 
   print("Perulangan - FOR")
-  for x in range(1,6):
+  for x in range(1,15,3):
     print("Bilangan ke-"+str(x))
   # ---------------------------------
 
   print("Perulangan - WHILE")
   y = 1
-  while y <= 5:
+  while y <= 15:
     print("Bilangan ke-"+str(y))
-    y = y+1
+    y = y + 3
   # ---------------------------------
   
