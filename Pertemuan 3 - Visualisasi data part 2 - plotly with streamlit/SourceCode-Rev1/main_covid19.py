@@ -33,7 +33,7 @@ st.set_page_config(
 def load_xlsx(file_name,sheet_name):
 
   # load dataset covid-19
-  df = pd.read_excel("../dataset/"+file_name, sheet_name=sheet_name)
+  df = pd.read_excel("../../dataset/"+file_name, sheet_name=sheet_name)
 
   # convert obj or str to datetime
   df["date"] = pd.to_datetime(df["date"], format="%Y-%m-%d")
@@ -286,7 +286,7 @@ with st.container():
 # --------------------------------------------------------------------------------------- #
 # data acquisition province ------------------------------------------------------------- #
 # --------------------------------------------------------------------------------------- #
-dataset = pd.read_excel("../dataset/dataset_covid.xlsx", sheet_name="data-covid-provinsi", engine="openpyxl")
+dataset = pd.read_excel("../../dataset/dataset_covid.xlsx", sheet_name="data-covid-provinsi", engine="openpyxl")
 st.info("Summary statistic on each province")
 
 # container-positive
