@@ -34,7 +34,7 @@ with col1:
   
   with st.form("my-form"):
     cryptocurrency = st.selectbox(
-      "Choose a cryptocurrency", ("BTC-USD", "ETH-USD", "AMZN", "AAPL", "GOOG", "MSFT"), 
+      "Choose a cryptocurrency", ("BTC-USD", "ETH-USD", "AAPL", "MSFT", "AMD", "NVDA", "GOOG", "AMZN", "META", "NFLX", "IBM"), 
       placeholder="Choose a cryptocurrency", index=None
     )
     start = st.date_input(
