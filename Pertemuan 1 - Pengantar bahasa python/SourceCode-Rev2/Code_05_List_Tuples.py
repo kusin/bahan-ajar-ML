@@ -13,6 +13,10 @@ MyTuple = ("apple", "banana", "cherry")
 print("Contoh Tuple : "+str(MyTuple))
 
 # Contoh Dictionary
-MyDictionary = {"Key1" : "apple", "Key2" : "banana","Key3" : "cherry"}
+MyDictionary = {
+  "Key1" : "apple",
+  "Key2" : "banana",
+  "Key3" : "cherry"
+}
 print("Contoh Dictionary : "+str(MyDictionary))
 

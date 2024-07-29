@@ -1,9 +1,12 @@
 # PROGRAM FormLogin.py
 
+# DEKLARASI Library
+import os
+
 # main method
 if __name__ == "__main__":
 
-  # menu form login
+  # menu form login os.system('clear')
   print("--------- FORM LOGIN ---------")
   username = input("Masukan username : ")
   password = input("Masukan password : ")
