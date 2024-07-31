@@ -21,7 +21,7 @@ st.set_page_config(
 
 # container-header
 with st.container():
-  st.markdown("# Visualization Data of Cryptocurrency and Stock Price")
+  st.markdown("# Visualization Data of Cryptocurrency and Stock Price by Zidan")
 
 # split two columns
 col1, col2 = st.columns([0.3, 0.7], gap="small")
