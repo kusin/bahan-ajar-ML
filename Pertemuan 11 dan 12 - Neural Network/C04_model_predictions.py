@@ -8,8 +8,8 @@ from keras.layers import GRU
 def get_models(algorithm, x_train, y_train, x_test, y_test):
 
   # set parameter tuning
-  optimizers = "adamax"   # opsi : adam, adamax, rmsprop, sgd
-  batch_size = 16         # opsi : 2, 4, 8, 16, 32
+  optimizers = "adam"   # opsi : adam, adamax, rmsprop, sgd
+  batch_size = 24         # opsi : 2, 4, 8, 16, 32
   epoch = 50              # opsi : 50, 75, 100
 
   # 1. The LSTM architecture

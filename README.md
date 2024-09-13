@@ -8,24 +8,24 @@
 
 ## Software Requirements
 
-- Anaconda3-2023.09 (version python 3.11.8)
+- Anaconda3-2024.02 (version python 3.11.7)
 - VS Code (version last updated)
 - Google Chrome (version last updated)
 
 ## Library Requirements
-
-- Tensorflow 2.14.0
-- Keras 2.14.0
-- Scikeras 0.12.0
-- Scikit-learn 1.2.2
 - Pandas 2.1.4
 - Numpy 1.26.4
-- Matplotlib 3.8.0
-- Seaborn 0.12.2
-- Plotly 5.19.0
-- Statsmodels 0.14.0
-- Scipy 1.12.0
-- Streamlit 1.32.2
+- Matplotlib 3.8.4
+- Seaborn 0.13.2
+- Plotly 5.24.0
+- Statsmodels 0.14.2
+- Scipy 1.11.4
+- Scikit-learn 1.5.2
+- Scikeras 0.12.0
+- Tensorflow 2.14.0
+- Keras 2.14.0
+- Streamlit 1.38.0
+
 
 ## Book Reference
 
