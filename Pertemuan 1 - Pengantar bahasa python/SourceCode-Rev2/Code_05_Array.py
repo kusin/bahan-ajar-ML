@@ -7,16 +7,12 @@ import numpy as np
 # ALGORITMA
 if __name__ == "__main__":
 
-  # Array ke-1 dan ke-2
+  # Input Program
   Arr1 = np.array([
-    [1, 2, 3],
-    [4, 5, 6],
-    [7, 8, 9],
+    [1, 2, 3], [4, 5, 6], [7, 8, 9],
   ])
   Arr2 = np.array([
-    [1, 0, 0],
-    [0, 1, 0],
-    [0, 0, 1],
+    [1, 0, 0], [0, 1, 0], [0, 0, 1],
   ])
 
   # proses penjumlahan array

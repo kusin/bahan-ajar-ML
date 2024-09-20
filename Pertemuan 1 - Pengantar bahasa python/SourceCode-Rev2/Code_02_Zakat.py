@@ -9,5 +9,5 @@ if __name__ == "__main__":
   # - proses program
   zakat = float(penghasilan) * 0.025
  
-  # - proses program
+  # - output program
   print(f"Jumlah zakat sebesar Rp. "+"{:0,.2f}".format(zakat))

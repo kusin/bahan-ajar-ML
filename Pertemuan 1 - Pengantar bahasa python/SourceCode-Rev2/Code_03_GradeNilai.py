@@ -19,7 +19,6 @@ if __name__ == "__main__":
     print("-------------------------------")
 
     # proses program
-
     if int(nilai_akhir) >= 80:
       nilai_huruf = "A"       # output nilai huruf
     elif int(nilai_akhir) >= 70:
@@ -44,4 +43,5 @@ if __name__ == "__main__":
     nilai_akhir = ""
     nilai_huruf = ""
 
+    # cek apakah ulangi program
     ulagi = input("Apakah ingin ulangi lagi (Y/N): ")
