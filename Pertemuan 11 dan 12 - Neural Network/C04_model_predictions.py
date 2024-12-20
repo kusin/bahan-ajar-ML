@@ -40,7 +40,7 @@ def get_models(algorithm, x_train, y_train, x_test, y_test):
     x=x_train, y=y_train,
     batch_size=batch_size, epochs=epoch, verbose="auto", 
     validation_data=(x_test, y_test),
-    shuffle=False, use_multiprocessing=False,
+    shuffle=False, use_multiprocessing=True,
   )
 
   # 4. predict models
