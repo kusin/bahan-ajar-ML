@@ -5,6 +5,13 @@
 - VGA RTX 2060 GDDR6 6GB
 - Resolution on 1920px x 1080px
 
+## Hardware Testing
+- Lenovo LOQ 15IRX9 2024
+- Processor intel i5-13450HX,
+- SSD NVMe 512GB
+- VGA RTX 4050 GDDR6 6GB
+- Resolution on 1920px x 1080px
+
 ## Software Requirements
 - Anaconda3-2024.02 (version python 3.11.7)
 - VS Code (version last updated)
