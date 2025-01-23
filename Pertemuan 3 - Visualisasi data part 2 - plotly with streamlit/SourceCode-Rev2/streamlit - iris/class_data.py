@@ -9,7 +9,7 @@ from sklearn.preprocessing import MinMaxScaler
 def getDataset(df):
 
   # load dataset
-  dataset = pd.read_csv("../../dataset/"+df)
+  dataset = pd.read_csv("../../../dataset/"+df)
   return dataset
 
 # func normalized by min-max method

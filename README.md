@@ -28,10 +28,10 @@
 - Statsmodels 0.14.3
 - Scipy 1.11.4
 - Scikit-learn 1.5.2
-- Scikeras 0.12.0
+- Streamlit 1.38.0
 - Tensorflow 2.14.0
 - Keras 2.14.0
-- Streamlit 1.38.0
+- Scikeras 0.12.0
 
 
 ## Book Reference
