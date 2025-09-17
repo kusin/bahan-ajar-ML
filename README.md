@@ -33,6 +33,10 @@
 - Keras 2.14.0
 - Scikeras 0.12.0
 
+## Library Other
+- Pytorch 2.8.0
+- Ultralytics 8.3.201
+- Opencv-python 4.12.0.88
 
 ## Book Reference
 - Brownlee J. 2016. Deep Learning with Python: Develop Deep Learning Models on Theano and TensorFlow Using Keras. Machine Learning Mastery.
