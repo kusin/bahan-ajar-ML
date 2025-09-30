@@ -1,24 +1,11 @@
 ## Hardware Testing
-- HP Omen 15-en0044AX 2020
-- Processor AMD R9 4900H
-- RAM DDR4 3200 MHz
-- SSD NVMe 1TB gen3
-- VGA RTX 2060 GDDR6 6GB
-- Resolution on 1920px x 1080px
 
-## Hardware Testing
-- Lenovo LOQ 15IRX9 2024
-- Processor intel i5-13450HX,
-- RAM DDR5 4800 MTs
-- SSD NVMe 512GB gen4
-- VGA RTX 4050 GDDR6 6GB
-- Resolution on 1920px x 1080px
-
+<div style="overflow-x: auto;">
 | Tipe Laptop                 | Processor              | VGA                  | SSD             | RAM             | Display          |
 |-----------------------------|------------------------|----------------------|-----------------|-----------------|------------------|
 | HP Omen 15-en0044AX (2020)  | AMD Ryzen 9 4900H      | RTX 2060 GDDR6 6GB   | 1TB NVMe Gen3   | DDR4 3200 MHz   | 1920 x 1080 px   |
 | Lenovo LOQ 15IRX9 (2024)    | Intel Core i5-13450HX  | RTX 4050 GDDR6 6GB   | 512GB NVMe Gen4 | DDR5 4800 MT/s  | 1920 x 1080 px   |
-
+</div>
 
 ## Software Requirements
 - Anaconda3-2024.02 (version python 3.11.7)
