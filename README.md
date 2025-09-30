@@ -14,6 +14,12 @@
 - VGA RTX 4050 GDDR6 6GB
 - Resolution on 1920px x 1080px
 
+| Tipe Laptop                 | Processor              | VGA                  | SSD             | RAM             | Display          |
+|-----------------------------|------------------------|----------------------|-----------------|-----------------|------------------|
+| HP Omen 15-en0044AX (2020)  | AMD Ryzen 9 4900H      | RTX 2060 GDDR6 6GB   | 1TB NVMe Gen3   | DDR4 3200 MHz   | 1920 x 1080 px   |
+| Lenovo LOQ 15IRX9 (2024)    | Intel Core i5-13450HX  | RTX 4050 GDDR6 6GB   | 512GB NVMe Gen4 | DDR5 4800 MT/s  | 1920 x 1080 px   |
+
+
 ## Software Requirements
 - Anaconda3-2024.02 (version python 3.11.7)
 - VS Code (version last updated)
