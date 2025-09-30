@@ -13,18 +13,21 @@
 - Google Chrome (version last updated)
 
 ## Library Requirements
-- Numpy 1.26.4
-- Pandas 2.2.3
-- Matplotlib 3.8.4
-- Seaborn 0.13.2
-- Plotly 5.24.1
-- Statsmodels 0.14.3
-- Scipy 1.11.4
-- Scikit-learn 1.5.2
-- Streamlit 1.35.0
-- Tensorflow 2.14.0
-- Keras 2.14.0
-- Scikeras 0.12.0
+
+| Nama Library      | Versi     |
+|-------------------|-----------|
+| Numpy             | 1.26.4    |
+| Pandas            | 2.2.3     |
+| Matplotlib        | 3.8.4     |
+| Seaborn           | 0.13.2    |
+| Plotly            | 5.24.1    |
+| Statsmodels       | 0.14.3    |
+| Scipy             | 1.11.4    |
+| Scikit-learn      | 1.5.2     |
+| Streamlit         | 1.35.0    |
+| Tensorflow        | 2.14.0    |
+| Keras             | 2.14.0    |
+| SciKeras          | 0.12.0    |
 
 ## Library Other
 - Pytorch 2.8.0
