@@ -1,11 +1,11 @@
 ## Hardware Testing
 
-| Tahun   | Tipe Laptop   | Processor     | VGA                   | SSD               | RAM               | Display           |
-|---------|---------------|---------------|-----------------------|-------------------|-------------------|-------------------|
-| 2020    | HP Omen 15    | R9 4900H      | RTX 2060 DRR6 6GB     | NVme Gen3 1TB     | DDR4 3200 MTs     | 15.6 inci 1080p   |
-| 2024    | Lenovo LOQ 15 | i5 13450HX    | RTX 4050 DRR6 6GB     | NVme Gen4 1TB     | DDR5 4800 MTs     | 15.6 inci 1080p   |
-| 2025    | HP 14s        | i5 1335U      | Intel Iris XE 128MB   | NVme Gen4 512GB   | DDR4 3200 MTs     | 14.0 inci 1080p   |
-| 2025    | HP Omen 16    | R7 Ai 350     | RTX 5060 DRR7 8GB     | NVme Gen4 1TB     | DDR5 5600 MTs     | 15.6 inci 1080p   |
+| Tahun   | Tipe Laptop   | Processor     | VGA                   | SSD          | RAM               | Display  |
+|---------|---------------|---------------|-----------------------|--------------|-------------------|----------|
+| 2020    | HP Omen 15    | R9 4900H      | RTX 2060 DRR6 6GB     | Gen3 1TB     | DDR4 3200 MTs     | 1080p    |
+| 2024    | Lenovo LOQ 15 | i5 13450HX    | RTX 4050 DRR6 6GB     | Gen4 1TB     | DDR5 4800 MTs     | 1080p    |
+| 2025    | HP 14s        | i5 1335U      | Intel Iris XE 128MB   | Gen4 512GB   | DDR4 3200 MTs     | 1080p    |
+| 2025    | HP Omen 16    | R7 Ai 350     | RTX 5060 DRR7 8GB     | Gen4 1TB     | DDR5 5600 MTs     | 1080p    |
 
 ## Software Requirements
 - Anaconda3-2024.02 (version python 3.11.7)
