@@ -1,4 +1,5 @@
 ## Hardware Testing
+
 | Tahun   | Tipe Laptop   | Processor     | VGA                   | SSD               | RAM               | Display           |
 |---------|---------------|---------------|----------------_------|-------------------|-------------------|-------------------|
 | 2020    | HP Omen 15    | R9 4900H      | RTX 2060 DRR6 6GB     | NVme Gen3 1TB     | DDR4 3200 MTs     | 15.6 inci 1080p   |
