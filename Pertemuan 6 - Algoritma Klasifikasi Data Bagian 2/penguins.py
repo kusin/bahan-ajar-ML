@@ -20,7 +20,14 @@ from sklearn.svm import SVC
 
 # library evaluation model
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
-# -------------------------------------------------------------------------------------------
+
+# set random number
+import random as rm
+rm.seed(1234)
+
+# set random number
+import numpy as np
+np.random.seed(1234)
 
 # config web streamlit
 st.set_page_config(page_title="My Dashboard", layout="wide")
@@ -42,8 +49,6 @@ with st.container():
 
 # container-body
 with st.container():
-
-    # show-dataset
     st.dataframe(dataset, use_container_width=True)
 
 # container-results
@@ -78,4 +83,3 @@ with st.container():
     col2.metric("Precision", f"{precision_score(testY, result, average='macro'):.4f}")
     col3.metric("Recall", f"{recall_score(testY, result, average='macro'):.4f}")
     col4.metric("F1 Score", f"{f1_score(testY, result, average='macro'):.4f}")
-    
